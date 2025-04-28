@@ -1,0 +1,27 @@
+# Basis-System
+sudo
+vim
+curl
+wget
+net-tools
+iproute2
+gnupg
+ca-certificates
+
+# Netzwerk-Tools
+openssh-client
+nmap
+
+# Terminal
+bash-completion
+
+# Live-System
+live-config
+live-boot
+
+# Bootloader
+grub-pc
+grub-efi
+
+# Nützlich
+htop

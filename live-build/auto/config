@@ -1,0 +1,12 @@
+#!/bin/bash
+
+lb config noauto \
+    --distribution bookworm \
+    --debian-installer live \
+    --archive-areas "main contrib non-free non-free-firmware" \
+    --binary-images iso-hybrid \
+    --bootappend-live "boot=live components quiet splash" \
+    --debootstrap-options "--include=ca-certificates" \
+    --firmware-binary true \
+    --linux-flavours amd64 \
+    --security true
